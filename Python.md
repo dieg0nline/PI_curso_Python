@@ -44,7 +44,7 @@ print (miCoche.estado())
 #### CONSTRUCTORES
 
 + Un **constructor** es un método especial que le da el estado inicial a los objetos
-+ Para crear un método constructor se utiliza la palabra reservada **def** y la plabra reservada **\_\_init__**, y una vez declarado dicho método constructor metemos las propiedades dentro de este método precedidas de la plabra **.self**
++ Para crear un método constructor se utiliza la palabra reservada **def** y la plabra reservada **\_\_init__**, y una vez declarado dicho método constructor metemos las propiedades dentro de este método precedidas de la plabra **self.**
 
 ~~~ py
 class Coche():
@@ -54,3 +54,20 @@ class Coche():
         self.ruedas = 4
         self.enmarcha=False
 ~~~
+
+#### ENCAPSULACIÓN
+
++ Protege una propiedad para que no se pueda modificar desde fuera de la clase. Para encapsular se precede al nombre de la variable con dos guiones bajos **\_\_variable**
+
+~~~ py
+class Coche():
+    def __init__(self):
+        self.__largoChasis = 250
+        self.__anchoChasis = 120
+        self.__ruedas = 4
+        self.__enmarcha=False
+~~~
+
+### 28 POO V
+
+#### Encapsulación de objetos

@@ -55,7 +55,7 @@ class Coche():
         self.enmarcha=False
 ~~~
 
-#### ENCAPSULACIÓN
+#### [Encapsulamiento](https://ellibrodepython.com/encapsulamiento-poo)
 
 + Protege una propiedad para que no se pueda modificar desde fuera de la clase. Para encapsular se precede al nombre de la variable con dos guiones bajos **\_\_variable**
 
@@ -72,4 +72,16 @@ class Coche():
 
 #### Encapsulación de objetos
 
-borrar
++ Es el mismo concepto que la encapsulación de las propiedades. Pero aplicada a los métodos.
+
+### 29. POO VI. HERENCIA
+
+#### [Herencia](https://ellibrodepython.com/herencia-en-python)
+
+Es el mecanismo por el cual una clase permite heredar las características (atributos y métodos) de otra clase.
+
+Terminología importante:
+
+1. Superclase: la clase cuyas características se heredan se conoce como superclase (o una clase base o una clase principal).
+2. Subclase: la clase que hereda la otra clase se conoce como subclase (o una clase derivada, clase extendida o clase hija). La subclase puede agregar sus propios campos y métodos, además de los campos y métodos de la superclase.
+3. Reutilización: la herencia respalda el concepto de “reutilización”, es decir, cuando queremos crear una clase nueva y ya hay una clase que incluye parte del código que queremos, podemos derivar nuestra nueva clase de la clase existente. Al hacer esto, estamos reutilizando los campos/atributos y métodos de la clase existente.

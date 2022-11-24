@@ -1,3 +1,3 @@
 # PI_curso_Python
 
-Curso [Python desde cero](https://youtube.com/playlist?list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS) que estoy siguiendo a través de Youtube en el canal de Píldoras Informáticas
+Ejercicios del curso de [Python Módulo 1](https://www.pildorasinformaticas.es/course/curso-python/) que estoy siguiendo a través de la escuela online [Píldoras Informáticas](https://www.pildorasinformaticas.es/course/curso-python/)

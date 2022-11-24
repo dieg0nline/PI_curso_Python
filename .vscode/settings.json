@@ -1,3 +1,6 @@
 {
-    "open-in-browser.default": "Mocilla Firefox"
+    "open-in-browser.default": "Mocilla Firefox",
+    "python.analysis.extraPaths": [
+        "./modulos"
+    ]
 }

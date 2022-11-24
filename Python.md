@@ -181,3 +181,45 @@ Es cuando objetos de diferentes clases pueden ser accedidos utilizando el mismo 
 Módulos son archivos con extensión .py .pyc (Python compliado) o archivo escrito en C para CPython, que posee su propio espacio de nombres y que puede contener variables, funciones, clases e incluso otros módulos.
 
 Sirven para organizar y reutilizar el código (modularización y reutilización)
+
+Puntos a tener en cuenta:
+
++ Podemos llamar directamente al módulo creado:
+
+~~~ py
+import modulo_creado
+~~~
+
++ Podemos llamar al módulo asignandole un alias, útil para nombres largos
+
+~~~ py
+import modulo_creado as mc
+~~~
+
++ En vez de importar el módulo podemos cargar una función
+
+~~~ py
+from modulo_creado import funcion1
+~~~
+
++ O bien cargar todas las funciones con un asterisco
+
+~~~ py
+from modulo_creado import *
+~~~
+
+### [35. Paquetes](https://youtu.be/nRieWujis4s)
+
+Son directorios donde se almacenarán módulos relacionados entre sí.
+
+Para ello crearemos una carpeta dentro de nuestro proyecto que será la que contenga los distintos módulos.
+Dentro de esta carpeta añadiremos un archivo llamado \_\_init\_\_.py y con esto ya está lista para almecenar nuestros módulos.
+El modo de llamarlos será el mismo que usamos para llamarlos cuando se encuentran en la misma ruta pero añadiendo el nombre de la carpeta que los contiene seguido de un punto:
+
+~~~ py
+import nombre_carpeta.modulo_creado
+
+o bien
+
+from nombre_carpeta.modulo_creado import funcion1
+~~~

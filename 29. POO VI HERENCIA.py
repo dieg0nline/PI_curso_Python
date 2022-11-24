@@ -1,5 +1,6 @@
 # https://youtu.be/u_VbLsIyzRk
 
+# Creamos una clase, que será la clase "padre"
 class Vehiculos():
     # Establecemos unos atributos (propiedades)
     def __init__(self, marca, modelo):
@@ -25,6 +26,6 @@ class Vehiculos():
 class Moto(Vehiculos): # Creamos una nueva clase "Moto" que hereda atributos y métodos de la clase "Vehiculos"
     pass
 
-miMoto=Moto("honda","shadow")
+miMoto=Moto("honda","shadow") # Instaciamos la clase "Moto"
 
-miMoto.estado()
+miMoto.estado() # Ahora podemos ejecutar en la clase "moto" uno de los métodos heredados de la clase "vehiculos"

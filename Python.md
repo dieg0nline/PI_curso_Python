@@ -1,5 +1,7 @@
 # PYTHON
 
+[Libros para estudiar](https://www.programaenpython.com/miscelanea/mejores-libros-de-python-en-espanol/)
+
 ## Programación orientada a objetos
 
 ### 27. POO IV
@@ -85,3 +87,46 @@ Terminología importante:
 1. Superclase: la clase cuyas características se heredan se conoce como superclase (o una clase base o una clase principal).
 2. Subclase: la clase que hereda la otra clase se conoce como subclase (o una clase derivada, clase extendida o clase hija). La subclase puede agregar sus propios campos y métodos, además de los campos y métodos de la superclase.
 3. Reutilización: la herencia respalda el concepto de “reutilización”, es decir, cuando queremos crear una clase nueva y ya hay una clase que incluye parte del código que queremos, podemos derivar nuestra nueva clase de la clase existente. Al hacer esto, estamos reutilizando los campos/atributos y métodos de la clase existente.
+
+~~~ py
+# Creamos una clase, que será la clase "padre"
+class Vehiculos():
+    # Establecemos unos atributos (propiedades)
+    def __init__(self, marca, modelo):
+        self.marca = marca
+        self.modelo = modelo
+        self.enmarcha = False
+        self.acelera = False
+        self.frena = False
+
+    # Creamos unos métodos
+    def arrancar(self):
+        self.enmarcha = True
+
+    def acelearar(self):
+        self.acelera = True
+
+    def frenar(self):
+        self.frena = True
+
+    def estado(self):
+        print ("Marca: ", self.marca, "\nModelo: ", self.modelo, "\nEn Marcha: ", self.enmarcha, "\nAcelerando: ", self.acelera, "\nFrenando: ", self.frena )
+
+class Moto(Vehiculos): # Creamos una nueva clase "Moto" que hereda atributos y métodos de la clase "Vehiculos"
+    pass
+
+miMoto=Moto("honda","shadow") # Instaciamos la clase "Moto" pasandole los 2 parámetros requeridos
+
+miMoto.estado() # Ahora podemos ejecutar en la clase "moto" uno de los métodos heredados de la clase "vehiculos"
+~~~
+
+### 30. POO VII Herencia II
+
++ Sobre escritura de métodos
++ Herencia simple y múltiple
+
+
+### 31. POO VIII Herencia III
+
++ super()
++ isinstance()

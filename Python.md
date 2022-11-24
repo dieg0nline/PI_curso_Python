@@ -1,6 +1,10 @@
 # PYTHON
 
+## Recursos
+
 [Libros para estudiar](https://www.programaenpython.com/miscelanea/mejores-libros-de-python-en-espanol/)
+
+[Clases online](https://es.py4e.com/lessons)
 
 ## Programación orientada a objetos
 
@@ -124,7 +128,6 @@ miMoto.estado() # Ahora podemos ejecutar en la clase "moto" uno de los métodos 
 
 + Sobre escritura de métodos
 + Herencia simple y múltiple
-
 
 ### 31. POO VIII Herencia III
 

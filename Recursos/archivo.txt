@@ -1,0 +1,6 @@
+Nuevo inicio del texto
+con Python
+Trabajando con el módulo 'io' para manejar archivos
+Fin del texto de prueba. end
+Esta línea de texto se introduce posteriormente. Versión 3 
+En una segunda instancia volvemos a abrir el archivo para añadir nuevo texto al ya existente
